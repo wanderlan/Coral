@@ -23,7 +23,7 @@ soprano = \relative do''{
  
   fas2. \pp (sol8 fas) fas2 r4 fas4 sol4. la8 fas4. mi8 mi2. la4-em la4.-"Ti," sol8 fas4 re'4 
   re4. dos8 \mf si4. la8 sol4. fas8 fas2 r4 \p si4 la4 sol8. (fas16) fas4 r4 r2 r4 si4 la4 sol8. (fas16)  
-  fas4 r4 \f re'2 fas2 r4 re4 dos2 dos4 re4 re2 (dos2) mi1 r1 r1     
+  fas4 r4 \f re'2 fas2 r4 re4 dos2 dos4 re4 re2 (dos2) re1 r1 r1     
 }
 
 alto = \relative do''{
@@ -70,7 +70,7 @@ tenor = \relative do {
   \key re \major
   \tempo "Adagio" 4=78
   la2. (dos8 re8) la2 r4 la4 si la la4. la8 dos1 r4 dos re4. dos8
-  si4 la si4. fas8 sol4. la8 sol2 r4 sol4 la4 mi'4 la, r4 r2 r4 sol la mi'
+  si4 la si4. fas8 sol4. la8 la2 r4 sol4 la4 mi'4 la, r4 r2 r4 sol la mi'
   la, r4 re2 re2 r4 re4 mi2 mi4 la,4 la1 la r1 r1
 } 
 
@@ -95,7 +95,7 @@ baixo = \relative do {
   \key re \major
   \tempo "Adagio" 4=78
   re1  re2 r4 re4 re dos re4. re8 la'1 r1 
-  r4 re,4 sol4. si,8 mi4. dos8 dos2 r4 sol'4 fas mi8. (re16)
+  r4 re,4 sol4. si,8 mi4. re8 re2 r4 sol4 fas mi8. (re16)
   re4 r4 r2 r4 sol fas mi8. (re16)  
   re4 r4 si'2 fas r4 fas4 mi2 mi4 re la1 re1 r1 r1 
 } 
