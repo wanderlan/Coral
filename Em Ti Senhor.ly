@@ -64,7 +64,7 @@ tenor = \relative do {
   \tempo "Andante" 4=82
   r2 fa'2 mi1 r2 dos2 re fa2 fa mi4 re4 mi2 mi 
   r2 re4 re re2 re4 re4 do2 do4 do do1 do r2 do2 re2. re4
-  si2 si do2. mi4 mi2 la, sib1 la2. la4 la2 (las4.) re8 dos1 
+  si2 si do2. mi4 mi2 la, sib1 la2. la4 la2 (sols4.) re'8 dos1 
 
   \break
   \key re \major
@@ -109,8 +109,10 @@ nhor = \markup \with-color "brown" nhor)
 \score {
   <<
     \set Score.barNumberVisibility = #(every-nth-bar-number-visible 4)
+    \set Score.midiInstrument = "pad 4 (choir)"
     \override Score.BarNumber.break-visibility = ##(#t #t #t)
-    \new Staff
+    \new Staff 
+  %  \tenor
 	  << \soprano \\ \alto >>
      \addlyrics {
       Em Ti, em Ti, Se -- nhor eu con -- fi -- o. Não me  dei- xes, Se- nhor, con- fun -- di- _ do.
@@ -119,9 +121,11 @@ nhor = \markup \with-color "brown" nhor)
       em Ti con- fi- o,em Ti, _ Se- nhor, em Ti, Se- _ nhor. Em Ti, Se- _ nhor,
       em Ti, Se- nhor, eu con- fi- _ o.} 
    
-    \new Staff 
-	  <<\tenor \\ \baixo >>
+    \new Staff   
+    <<\tenor \\ \baixo >>
   >>
   \layout {indent= 0}
+  \midi { }
+}
   \midi { }
 }
